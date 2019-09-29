@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1"/>
+		<link rel="stylesheet" type="text/css" href="css/player_matching.css"/>
+		<script type="text/javascript" src="js/player_matching.js"></script>
+	</head>
+	<body>
+		
+		<div class="header">
+			<img src="img/4.png"/ id="back">
+			<div class="p">参数设置</div>
+			<img src="img/5.png"/>
+		</div>
+		
+		<div class="content">
+			
+			<div class="identity">
+				
+				<div class="left">
+					<p>玩家配比</p>
+				</div>
+				<div class="right">
+					<div id="distribution">
+						<ul>
+							<li id="blue"><span class="gray">水 民<span  id="blue_gray"> 0 人</span></span></li>
+							<li id="yellow"><span class="gray">杀 手<span id="yellow_gray"> 0 人</span></span></li>
+						</ul>
+					</div>
+					<div id="set">
+						<p>点击设置</p>
+						<div><img src="img/6.png"/></div>
+						
+					</div>
+				</div>
+				
+			</div>
+			
+			<div class="word">
+				
+				<input type="text" id="people_word"  value="" placeholder="水民词组"/>
+				
+				<input type="text" id="killer_word"  value="" placeholder="杀手词组"/>
+				
+			</div>
+			
+			<div class="play_number">
+				<div>玩家人数&emsp;<input type="text" id="num" value="4" />&emsp;<span class="tip">人数为4-18人</span></div>
+				<div class="line">
+					<img id="reduce" src="img/9.png" alt="" />
+					<input type="range" id="rg" value="" />
+					<img id="plus" src="img/8.png" alt="" />
+				</div>
+				
+			</div>
+			
+			<div id="start">
+				去发牌
+			</div>
+		</div>
+		
+	</body>
+</html>

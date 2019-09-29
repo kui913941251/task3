@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #29bde0;
+}
+.header {
+  height: 44px;
+  background-color: #29BDE0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #74d4eb;
+  border-bottom: #74d4eb 1px solid;
+}
+.header img {
+  margin: 0 10px;
+}
+.header div {
+  font-size: 17px;
+  color: white;
+}
+.header #back:hover {
+  cursor: pointer;
+}
+.content {
+  padding: 0px 20px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 150px;
+}
+.content .all {
+  margin-top: 30px;
+  width: 25vw;
+  height: 25vw;
+  border: 1vw solid white;
+}
+.content .all > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content .all .top {
+  height: 70%;
+  background-color: #f5c97b;
+  font-size: 6vw;
+}
+.content .all .down {
+  height: 30%;
+  background-color: #83b09a;
+  font-size: 4vw;
+  color: white;
+}
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: #29bde0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+}
+.footer .start {
+  font-size: 20px;
+  width: 250px;
+  height: 45px;
+  background-color: #fbb435;
+  text-align: center;
+  line-height: 45px;
+  color: white;
+}
+.footer .start:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=judge_dairy.css.map */
